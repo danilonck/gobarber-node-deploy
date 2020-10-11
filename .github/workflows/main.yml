@@ -33,7 +33,7 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           port: ${{ secrets.SSH_PORT }}
           key: ${{ secrets.SSH_KEY }}
-          source: "distt"
+          source: "dist"
           target: "test"
       
     # Substituir o código existente na past "dist" pelo novo código
